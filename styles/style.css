@@ -51,7 +51,6 @@ ol {
 
 .content {
   display: flex;
-  width: 1140px;
   padding: 133px 30px;
   align-items: end;
   gap: 30px;
@@ -179,8 +178,6 @@ ol {
   width: 194px;
 }
 
-/* right section */
-
 .content__details {
   display: flex;
   flex-direction: column;
@@ -204,7 +201,7 @@ ol {
   display: flex;
   flex-direction: column;
   height: 298px;
-  overflow-y: auto;
+  overflow: auto;
 }
 
 .content__list-item {
@@ -256,6 +253,8 @@ ol {
   font-weight: 400;
   line-height: 21px;
   text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .content__video-card-description {
