@@ -181,6 +181,7 @@ ol {
 .content__details {
   display: flex;
   flex-direction: column;
+  width: 399px;
   gap: 26px;
 }
 
@@ -253,6 +254,7 @@ ol {
   max-width: 200px;
   flex-grow: 1;
   color: #fff;
+  overflow: hidden;
 }
 
 .content__video-card-title {
@@ -260,6 +262,7 @@ ol {
   font-size: 30px;
   font-weight: 700;
   text-align: left;
+  line-height: 30px;
   text-transform: uppercase;
   text-overflow: ellipsis;
   overflow: hidden;
